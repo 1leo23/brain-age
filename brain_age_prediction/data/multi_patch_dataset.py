@@ -6,7 +6,7 @@ import torch
 import pandas as pd
 import numpy as np
 from torch.utils.data import Dataset
-import torchvision.transforms.functional as F  # 用於將 PIL Image 轉成 Tensor
+import torchvision.transforms.functional as F  
 from PIL import Image
 from collections import defaultdict
 
